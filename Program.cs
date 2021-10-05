@@ -8,7 +8,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            // SingletonUsage.Run();
+            SingletonUsage.Run();
             VisitorUsage.Run();
         }
     }
