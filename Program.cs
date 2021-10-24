@@ -1,6 +1,7 @@
 ﻿using System;
 using DesignPatterns.Singleton;
 using DesignPatterns.Strategy;
+using DesignPatterns.Structural.Facade;
 using DesignPatterns.Visitor;
 
 namespace DesignPatterns
@@ -11,7 +12,8 @@ namespace DesignPatterns
         {
             //SingletonUsage.Run();
             //VisitorUsage.Run();
-            StrategyUsage.Run();
+            //StrategyUsage.Run();
+            FacadeClient.Run();
         }
     }
 }
