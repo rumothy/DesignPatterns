@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatterns.Behavioral.Observer;
 using DesignPatterns.Singleton;
 using DesignPatterns.Strategy;
 using DesignPatterns.Structural.Decorator;
@@ -15,7 +16,8 @@ namespace DesignPatterns
             //VisitorUsage.Run();
             //StrategyUsage.Run();
             //FacadeClient.Run();
-            DecoratorUsage.Run();
+            //DecoratorUsage.Run();
+            ObserverUsage.Run();
         }
     }
 }
